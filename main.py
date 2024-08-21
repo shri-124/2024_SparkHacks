@@ -11,6 +11,7 @@ import numpy as np
 from flask import Flask
 from flask_cors import CORS
 app = Flask(__name__)
+
 CORS(app)
 
 @app.route('/process_selection', methods=['POST'])
@@ -94,4 +95,4 @@ def process_selection():
     print(request.json)  # Add this line to debug the incoming JSON data
     return jsonify({"Top Counties": top_counties})
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()

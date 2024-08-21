@@ -5,7 +5,7 @@ cattrs==23.2.3
 certifi==2024.2.2
 charset-normalizer==3.2.0
 click==8.1.7
-cvxopt
+cvxopt==1.2.6
 cvxpy==1.1.15
 dill==0.3.4
 ecos==2.0.7.post1
@@ -35,6 +35,7 @@ packaging==24.0
 pandas==2.2.0
 pillow==10.2.0
 platformdirs==4.2.0
+pybind11==2.12.0
 pyodbc==5.1.0
 PySocks==1.7.1
 python-constraint==1.4.0
@@ -43,7 +44,7 @@ python-dotenv==1.0.1
 python-env==1.0.0
 pytz==2023.3.post1
 qdldl==0.1.5.post0
-requests
+requests==2.31.0
 requests-cache==1.1.1
 retry-requests==2.0.0
 scipy==1.5.4
